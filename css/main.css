@@ -1,0 +1,515 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body{
+    background-color: thistle;
+    align-items: center;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.name a{
+    font-size: 30px;
+}
+
+.dropdown a:hover{
+    background-color: tomato;
+}
+
+.top-bar {
+    background-color: transparent;
+    height: 4.2rem;
+    line-height: 4.2rem;
+}
+
+
+/***************************************************/
+/*
+.section1 {
+    min-height: 100hv;
+    background-color: black;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+  
+  /*logo*//*
+  .color {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+  }
+  
+  .Navigation {
+    width: 40%;
+    display: inline-block;
+  }
+  
+  .NavigationList {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /*boton nav*/ /*
+  .btn {
+    background: #03ac99;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  .main {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .mainContent {
+    height: 40%;
+    width: 40%;
+    margin-bottom: 0;
+  }
+  
+  .mainContent h2 {
+    font-size: 4em;
+    color: white;
+    padding-bottom: 16px;
+    font-weight: 300;
+  }
+  
+  .mainContent p {
+    font-size: 1em;
+    opacity: 0.4;
+    width: 80%;
+    line-height: 1.6;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .btn2 {
+    background: black;
+    border-color: white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .btn2:hover {
+    background: #318070;
+  }
+  
+  .color2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background: #318070;
+  }
+  
+  .color9{
+    
+    position: relative;
+    background-image: url(/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 1400px;
+}
+
+/***************************************************/
+/*
+.section2 {
+    width: 1400px;
+    height: 550px;
+    background: #111919;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .img {
+    text-align: center;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #318070;
+    margin-top: 60px;
+  }
+  
+  .cont2 {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .cont2 p {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+  
+    line-height: 1.2;
+    font-weight: 300;
+    color: beige;
+  }
+  
+  .cont2 p > a {
+    font-size: 25px;
+    color: #318070;
+  }
+  
+  .cont2 p > a:hover {
+    color: black;
+  }*/
+
+  .img{
+      padding-left: 25%;
+  }
+  
+  hr {
+    height: 3px;
+    width: 400px;
+    background-color: #1c2929;
+    margin-top: 20px;
+  }
+  
+  .cont3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+  }
+  .art h2 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: white;
+    font-weight: 400;
+  }
+  .art p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+  }
+
+section.destacada {
+    position: relative;
+    min-width: 100vh;
+}
+
+section.tabs-centrar{
+    margin-left: 300px;
+    width: 840px;
+    text-align: justify;
+}
+section.tabs-centrar  img{
+    width: 50%;
+    height: 50%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+section.destacada img{
+    width: 1920px;
+    height: 670px;
+}
+
+section.destacada .contenido {
+    top: 50%;
+    left:0;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+}
+
+section.destacada .contenido h1{
+    padding: 30px 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/*seccion agencia*/
+section.agencia {
+    background-color: #ebeeed;
+    padding: 10px;
+}
+
+section.agencia .borde {
+    border: 1px solid #aeb4b7;
+}
+
+section.agencia p {
+    margin-bottom: 40px;
+}
+
+/*seccion servicios*/
+section.servicios {
+    background-color: #ebeeed;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-top: 30px;
+}
+
+section.servicios small {
+    font-style: italic;
+}
+
+/*seccion contacto*/
+section.contacto {
+    background-color:  #4f5962;
+    padding: 10px;
+    color: #fff;
+}
+
+section.contacto .borde {
+    border:1px solid #697279;
+}
+
+section.contacto .button {
+    background-color: #67727c;
+    border:2px solid #fff;
+    color: #fff;
+    padding: 15px 50px;
+}
+
+/*footer*/
+footer {
+    background-color: #2d3235;
+    padding-top: 30px;
+}
+
+footer nav a,
+footer nav a:hover {
+    color: #fff;
+}
+
+footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #595d60;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+footer p {
+    color: #fff;
+}
+
+/*seccion informacion*/
+
+section.informacion{
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
